@@ -19,7 +19,7 @@ def insert_face_count_data(image_name, face_count):
         connection = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="David910139",
+            password="1234",
             database="face_detection"
         )
         cursor = connection.cursor()
